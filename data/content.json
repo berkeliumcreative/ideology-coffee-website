@@ -1,47 +1,124 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Ideology Coffee",
+  "tagline": "Coffee with a point of view",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Coffee. With ideology.",
+    "subheading": "A Glendale roaster pulling honest espresso since 2017. No syrups in our flat whites. No apologies for our pour-overs.",
+    "ctaText": "Visit the shop",
+    "ctaLink": "#visit",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1800&q=80&auto=format&fit=crop"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "A working roastery on Central Ave.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "We pull every shot on a Mavam under-counter. We weigh every dose. We taste every batch before it goes into the hopper. That's the whole ideology.",
+      "Our beans come from three farms we actually visit — Finca La Esmeralda in Boquete, Jasmin Estate in Yirgacheffe, and a small lot we share with two other roasters out of Huila. The bag tells you where, when, and who.",
+      "Open early for the Adventist nurses and the Forest Lawn groundskeepers. Open late enough for the gallery crawl on Friday nights. Wifi exists but the seats are made for talking."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Espresso",
+      "description": "Single origin or our house blend. Pulled to 36g, 18s, 92°C. Served in a warmed cup, no spoon.",
+      "price": "$3.50"
+    },
+    {
+      "title": "Cortado",
+      "description": "Equal-parts espresso and warm milk in a Gibraltar glass. Our most-ordered drink, three years running.",
+      "price": "$4.50"
+    },
+    {
+      "title": "Pour Over",
+      "description": "V60 or Kalita Wave, your choice. 22g in, 360g out. Brewed table-side. Takes four minutes — worth it.",
+      "price": "$6.00"
+    },
+    {
+      "title": "Cold Brew",
+      "description": "Steeped 18 hours in 5-gallon kegs. Bold, chocolatey, no bitterness. On nitro tap when available.",
+      "price": "$5.00"
+    },
+    {
+      "title": "Pastry case",
+      "description": "Daily-baked croissants from Proof. Sourdough bagels from Mr. Holmes. Vegan banana bread from us.",
+      "price": "$3 – $6"
+    },
+    {
+      "title": "Whole bean retail",
+      "description": "12oz bags, roasted on Mondays and Thursdays. Subscribe in-store for a $2 discount and free decaf swap.",
+      "price": "$18 – $24"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Anaís V.",
+      "rating": 5,
+      "text": "The cortado here ruined other cortados for me. The barista actually pulls a real ristretto. Cult-favorite for a reason."
+    },
+    {
+      "name": "Greg M.",
+      "rating": 4,
+      "text": "Beautiful space, serious about coffee. They'll talk you through the bean if you ask. They won't if you don't."
+    },
+    {
+      "name": "Pat L.",
+      "rating": 5,
+      "text": "I'm a coffee snob and I will defend this shop with my life. The pour-overs are some of the best in LA."
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 937-2534",
+    "email": "hello@ideologycoffee.com",
+    "address": "312 N Central Ave, Glendale, CA 91203",
+    "mapEmbedQuery": "Ideology Coffee 312 N Central Ave Glendale CA 91203",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
+      "Monday": "7 AM – 6 PM",
+      "Tuesday": "7 AM – 6 PM",
+      "Wednesday": "7 AM – 6 PM",
+      "Thursday": "7 AM – 6 PM",
+      "Friday": "7 AM – 6 PM",
+      "Saturday": "8 AM – 6 PM",
+      "Sunday": "8 AM – 6 PM"
+    }
+  },
+  "gallery": [
+    "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1200&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200&q=80&auto=format&fit=crop"
+  ],
+  "social": {
+    "yelp": "https://www.yelp.com/biz/ideology-coffee-glendale",
+    "orderonline": "https://custom.order.online/store/ideology-coffee-glendale-1094089",
+    "grubhub": "https://www.grubhub.com/restaurant/ideology-coffee-312-n-central-ave-glendale/2187584",
+    "instagram": "https://www.instagram.com/ideology.coffee.shop/"
+  },
+  "orderOnline": [
+    {
+      "platform": "order",
+      "label": "Order ahead",
+      "url": "https://custom.order.online/store/ideology-coffee-glendale-1094089"
     },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    {
+      "platform": "grubhub",
+      "label": "Order on Grubhub",
+      "url": "https://www.grubhub.com/restaurant/ideology-coffee-312-n-central-ave-glendale/2187584"
+    }
+  ],
+  "theme": {
+    "primaryColor": "#FF4D2E",
+    "accentColor": "#0E0E0E",
+    "fontFamily": "Bricolage Grotesque + Inter"
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
-  },
-  "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "title": "Ideology Coffee — Glendale roastery and cafe",
+    "description": "Specialty coffee, espresso, pour-overs and cold brew. Open 7AM daily at 312 N Central Ave, Glendale.",
+    "keywords": [
+      "coffee shop Glendale",
+      "specialty coffee Glendale",
+      "Ideology Coffee",
+      "Central Ave coffee",
+      "pour over Glendale",
+      "espresso Glendale",
+      "glendale roaster"
+    ]
   }
 }
